@@ -1,0 +1,169 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 
+%% Robert Paraschiv's resume
+%%   
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%
+%% The following code sets up the document formatting
+%%
+%this assumes that res_yy.sty is in some path
+\documentstyle[hyperref, margin, line]{res_yy}
+%\pagestyle{fancy} 
+\hypersetup{backref,pdfpagemode=Full,colorlinks=true,backref}
+
+\addtolength{\oddsidemargin}{-0.45in}
+\addtolength{\voffset}{-0.30in}
+\addtolength{\textwidth}{1.00in}
+\addtolength{\textheight}{.30in}
+
+\renewcommand{\namefont}{\Huge}
+%\addtolength{\headwidth}{1in}
+%\lhead{\Large{Babak Salamat}}
+
+%%
+%% The following code defines some macros for terms which have raised font
+%% (ie 4\fourth would result 4th with the 'th' raised (superscripted)
+%%
+
+\def\Cplusplus{{\rm C\raise.4ex\hbox{\small ++}}}
+\def\CSharp{{\rm C\raise.4ex\hbox{\small \#}}}
+% 'st' 'nd' 'rd' 'th' superscripts for numbers
+\def\first{{\raise.5ex\hbox{\small st}}}
+\def\second{{\raise.5ex\hbox{\small nd}}}
+\def\third{{\raise.5ex\hbox{\small rd}}}
+\def\fourth{{\raise.5ex\hbox{\small th}}}
+
+%%
+%% starting the actual document
+%%
+\begin{document}
+
+%the name in big fonts at the top of resume
+%this is left aligned
+\name{Robert Paraschiv}
+\address{
+robert.a.paraschiv@gmail.com\hspace{0.35cm}
+(925) 890-9858\hspace{0.35cm}
+\hspace{0.35cm}
+%%http://about.me/robertpara
+}
+
+\begin{resume}
+
+
+\section{\textsc{Summary of Qualifications}}
+A technology professional with a passion for creating compelling products, features and user experiences. Comfortable with the product development life cycle and familiar with popular software development methodologies, ranging from waterfall to agile and lean frameworks. An analytical as well as creative team player with strong leadership, organization and communication skills, and a knack for practical and actionable problem solving. Comfortable writing clear and detailed product specification and requirement documents, as well as creating mockups and prototypes to help aid in UI/UX design. Experienced in driving simultaneous projects with cross-functional teams of both technical and non-technical disciplines, acting as both leader and facilitator to ensure every member has a clear and actionable understanding of project goals as well as the means to achieve them.
+
+
+
+
+
+\begin{formatb}
+  	\employer{l}\title{r}\\
+	\location{l}\dates{r}\\
+	\body\\
+\end{formatb}
+
+\section{\textsc{Work\\Experience}}
+
+
+\employer{\textbf{Taulia, Inc.}}
+\title{Product Manager}
+\location{San Francisco, CA}
+\dates{2011 - Present}
+\begin{position}
+\begin{itemize}
+	\item Worked with engineers, designers and senior management to grow and refine product offerings for Taulia Inc., an e-invoicing web application start-up.
+	\item Acted as lead for multiple projects, driving all stages of the product development cycle.
+	\item Gathered requirement documents, ensuring that the needs of all project stakeholders were addressed as effectively as possible while also considering the limited engineering resources of a start-up, triaging and prioritizing feature requests within those constraints.
+	\item Authored numerous product specification documents, successfully translating requirement documents into actionable specifications, including detailed feature descriptions, UI mockups, process and UX flow diagrams, and generally striving to maintain clear and understandable specifications that the engineering and design teams could reference during the product development cycle.
+	\item Conducted project kick-off meetings and coordinated and documented development progress, acting as a cross-team liaison to maintain an open channel of communication between project team members and stakeholders.
+	\item Lead application-wide user interface and experience redesign, working closely with front-end engineers and developers to implement a data-driven UI and UX refresh that resulted in dramatic increases in engagement and adoption rates, as well as an influx of positive feedback from customers.
+	\item Spearheaded localization efforts, bringing the language options of our application from English-only to French, Italian, German, Spanish, Dutch, Portuguese and Simplified Chinese.
+	\item Lead usability testing initiatives, deriving valuable feedback from test participants that resulted in highly effective product improvements and targeted UI/UX revisions.
+	\item Worked closely with support team to identify recurring customer pain points, often personally reaching out to individual members of our user base to gain an intimate understanding of their experience - both positive and negative - with our product.
+	\item Managed the API integration of third-party email service provider, enabling product and marketing teams to make quick and instant changes to transactional emails without reliance on engineering resources and adherence to development cycles.
+	\item Developed metrics reporting process, providing accurate trending of key data points, resulting in marked increase into insight of business fundamentals as well as areas in need of improvement.
+\end{itemize}
+\end{position}
+
+\employer{\textbf{Kitron Software}}
+\title{Product Manager - Consultant}
+\location{San Ramon, CA}
+\dates{2008 - 2011}
+\begin{position}
+\begin{itemize}
+	\item Provided product management services for Kitron Software, a mobile applications start-up.
+	\item Helped drive all phases of the product development cycle, bringing to market some of the most well-received apps on the Windows Phone App Marketplace.
+	\item Authored product specification documents and produced wire-frame mockups for mobile apps, providing reference documents for developers to defer to throughout the development process.
+	\item Performed market research and analysis, developed marketing strategy, and authored advertising copy for mobile applications.
+	\item Maintained bug and feature triage list while continuing to refine and iterate software products based on community feedback, requested features, and market competitiveness.
+	\item Provided email-based support to app users, resulting in a better understanding of product shortcomings and insight into potential areas of improvement.
+	\item Helped manage the conceptualization, development and launch of Colorize - a Windows Phone app that converts an image to black and white and allows the user to reintroduce color onto selected objects - reaching \#1 in the paid photo apps category.
+\end{itemize}
+\end{position}
+
+\employer{\textbf{ParaProd LLC}}
+\title{Owner}
+\location{Bay Area, CA}
+\dates{2005 - 2011}
+\begin{position}
+\begin{itemize}
+	\item Founded and successfully operated ParaProd LLC - a multimedia production company - operating at a profit every year since inception.
+	\item Successfully built and maintained working relationships with some of the world's leading companies - including Visa, eBay, PayPal, CSC Covansys and others - providing them with a turnkey solution to their video production needs.
+%	\item Functions as business owner include devising, implementing and refining business model and strategy, conducting market analysis, authoring and updating %business plan, creating and managing advertising campaign, maintaining relationships with clients while continually identifying and analyzing new business opportunities, %studying analytics and click-through rates while conducting A/B tests of Google AdWords campaign for business website, and making changes to the marketing strategy and %online presence accordingly.
+	\item Continually refined marketing efforts by performing A/B tests of advertising campaigns, resulting in increased traffic to business website, more accurately targeted click-through rates, and increased revenue.
+	\item Effectively managed multiple teams of cross-functional personnel, providing direction to achieve project goals while also ensuring on-time and on-budget delivery for our clients.
+	\item Excelled at translating client needs and expectations into actionable tasks for subcontractors and project specific personnel.
+	\item Provided video, editing, graphic/motion/sound design, and many other multimedia services to numerous companies.
+\end{itemize}
+\end{position}
+
+
+
+%\employer{\textbf{Diablo Valley College}}
+%\title{Printshop Assistant}
+%\location{Pleasant Hill, CA}
+%\dates{2002 - 2003}
+%\begin{position}
+%\begin{itemize}
+%	\item Duties consisted of retrieval, organization, preparation and production of duplication jobs from Diablo Valley College and San Ramon Valley College.
+%	\item Honed and cultivated customer service and support skills by addressing any issues in a timely and efficient manner, ensuring customer satisfaction.
+%\end{itemize}
+%\end{position}
+
+%\employer{\textbf{Anaheim Union School District}}
+%\title{Computer Repair Technician - Volunteer}
+%\location{Anaheim, CA}
+%\dates{2000 - 2001}
+%\begin{position}
+%\begin{itemize}
+%	\item Worked as part of a team of fellow technicians to repair and troubleshoot hardware and software related problems with computers and/or peripheral parts %belonging to the Anaheim Union School District. 
+%	\item Received Computer Repair Technician Certificate.
+%\end{itemize}
+%\end{position}
+
+\section{\textsc{Education}}
+\employer{\textbf{California State University, East Bay}}
+\title{Bachelors of Arts in Sociology}
+\location{}
+\dates{2008}
+\begin{position}
+\end{position}
+
+\section{\textsc{Additional}}
+\emph{Language Skills}: Fluent in English and proficient in Romanian.\\
+\\
+\\
+%\emph{Computer Skills}: Adobe Acrobat, Adobe After Effects, Adobe Encore, Adobe Media Encoder, Adobe Photoshop, Adobe Premiere Pro, Adobe Soundbooth, Camtasia Studio, Mac OS X, Microsoft Access, Microsoft Excel, Microsoft Outlook, Microsoft %PowerPoint, Microsoft Project, Microsoft Windows XP/Vista/7,  Microsoft Word, Sony DVD Architect, Sony Vegas.\\
+
+
+
+
+
+
+
+\end{resume}
+\end{document}
